@@ -3,9 +3,9 @@ import aboutme from "../assets/aboutme.png";
 
 const AboutMe = () => {
   return (
-    <div className="mx-auto px-8 md:px-16 lg:px-24">
-      <h2 className="text-4xl font-bold text-center mb-12">About Me</h2>
-      <div className="flex flex-col md:flex-row items-center md:space-x-12">
+    <div className="mx-auto px-8 md:px-16 lg:px-24 max-sm:mt-10">
+      <h2 className="text-4xl font-bold text-center mb-10 ">About Me</h2>
+      <div className="flex flex-col md:flex-row items-center md:space-x-12 max-sm:-mt-6">
         <img
           src={aboutme}
           alt="Aboutme"
@@ -29,7 +29,7 @@ const AboutMe = () => {
               <li className="text-lg md:text-xl lg:text-xl xl:-ml-24">
                 HTML, CSS
               </li>
-              <div className="w-full max-w-[500px] bg-gray-300 rounded-full cursor-pointer xl:-ml-24">
+              <div className="w-full max-w-[500px] bg-gray-300 rounded-full xl:-ml-24">
                 <div
                   className="h-2 bg-green-800 rounded-full"
                   style={{ width: "85%" }}
@@ -38,14 +38,14 @@ const AboutMe = () => {
               <li className="text-lg md:text-xl lg:text-xl xl:-ml-24">
                 JavaScript
               </li>
-              <div className="w-full max-w-[500px] bg-gray-300 rounded-full cursor-pointer xl:-ml-24">
+              <div className="w-full max-w-[500px] bg-gray-300 rounded-full xl:-ml-24">
                 <div
                   className="h-2 bg-green-800 rounded-full"
                   style={{ width: "70%" }}
                 ></div>
               </div>
               <li className="text-lg md:text-xl lg:text-xl xl:-ml-24">React</li>
-              <div className="w-full max-w-[500px] bg-gray-300 rounded-full cursor-pointer xl:-ml-24">
+              <div className="w-full max-w-[500px] bg-gray-300 rounded-full xl:-ml-24">
                 <div
                   className="h-2 bg-green-800 rounded-full"
                   style={{ width: "60%" }}

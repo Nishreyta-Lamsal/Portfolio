@@ -2,7 +2,7 @@ import React from "react";
 
 const Projects = ({ image, title, description, link, id }) => {
   return (
-    <div className="w-full h-full cursor-pointer sm:w-64 md:w-72 lg:w-96 bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300 flex flex-col group">
+    <div className="w-full h-full cursor-pointer max-sm:w-64 md:w-72 lg:w-96 bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300 flex flex-col group">
       <div className="relative overflow-hidden group-hover:scale-105 transition-transform duration-300 ease-in-out">
         <img className="w-full h-52 object-contain bg-black" src={image} alt={title} />
       </div>

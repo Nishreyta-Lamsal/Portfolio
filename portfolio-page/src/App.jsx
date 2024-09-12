@@ -42,14 +42,16 @@ const App = () => {
 
       <div id="profile">
         <Profile />
+        <hr className="-mt-10 mb-10 border-spacing-0 border-slate-500 h-1 w-full sm:w-[90%] sm:ml-10 md:w-[80%] md:ml-20 lg:w-[90%] lg:ml-24 max-sm:mt-14" />
       </div>
 
       <div id="aboutme">
         <AboutMe />
+        <hr className="mt-5 mb-10 border-spacing-0 border-slate-500 h-1 w-full sm:w-[90%] sm:ml-10 md:w-[90%]  lg:w-[90%] lg:ml-24 max-sm:mt-14" />
       </div>
 
-      <div id="projects" className="mt-10 mb-10 h-full">
-        <p className="text-5xl font-bold text-center mb-20 text-[#222831] mt-10">
+      <div id="projects" className="mt-10 mb-2 h-full max-sm:mt-20">
+        <p className="text-5xl font-bold text-center mb-16 text-[#222831] mt-10 ">
           My Projects
         </p>
         <div className="flex flex-wrap gap-12 justify-center">
@@ -63,6 +65,7 @@ const App = () => {
             />
           ))}
         </div>
+        <hr className="mt-28 border-spacing-0 border-slate-500 h-1 w-full sm:w-[90%] sm:ml-10 md:w-[80%] md:ml-20 lg:w-[90%] lg:ml-24 max-sm:mt-14" />
       </div>
 
       <div id="contact">

@@ -38,7 +38,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="py-10 mt-20">
+    <section className="py-10 ">
       <p className="text-5xl font-bold text-center mb-9 text-[#222831]">
         Contact Me
       </p>

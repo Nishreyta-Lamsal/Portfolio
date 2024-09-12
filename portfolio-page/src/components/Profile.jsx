@@ -8,7 +8,7 @@ const Profile = () => {
     <section className="flex flex-col-reverse md:flex-row items-center h-auto w-[90vw] lg:h-[90vh] md:h-[70vh] p-4 md:p-10 md:-mb-8 mx-auto">
       <div className="flex-shrink-0 w-full sm:w-1/3 md:w-1/2 lg:w-1/2 pr-0 md:pr-32 pl-0 md:pl-28 mb-6 md:mb-0">
         <img
-          className="rounded-full w-3/4 md:w-full h-auto mx-auto "
+          className="hidden sm:block rounded-full w-3/4 md:w-full h-auto mx-auto"
           src={profile}
           alt="profile"
         />
